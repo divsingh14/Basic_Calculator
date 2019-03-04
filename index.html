@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<title>	</title>
+</head>
+<body>
+	<div id="calculator_body">
+		<table>
+		<tr>
+			<input type="text" placeholder="0" maxlength="10" id="display" readonly>
+		</tr>
+		<tr>
+			<input type="button" onclick="del_value()" value="Del" id="del_button">
+		</tr>
+		
+		<tr>
+			<td>
+				<button onclick="addNumber(1)">1</button>
+			</td>
+			<td>
+				<button onclick="addNumber(2)">2</button>
+			</td>
+			<td>
+				<button onclick="addNumber(3)">3</button>
+			</td>
+			<td>
+				<button onclick="addSymbol('+')">+</button>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<button onclick="addNumber(4)">4</button>
+			</td>
+			<td>
+				<button onclick="addNumber(5)">5</button>
+			</td>
+			<td>
+				<button onclick="addNumber(6)">6</button>
+			</td>
+			<td>
+				<button  onclick="addSymbol('-')">-</button>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<button onclick="addNumber(7)">7</button>
+			</td>
+			<td>
+				<button onclick="addNumber(8)">8</button>
+			</td>
+			<td>
+				<button onclick="addNumber(9)">9</button>
+			</td>
+			<td>
+				<button onclick="addSymbol('*')">X</button>
+				
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<button onclick="clear_box()">C</button>
+			</td>
+			<td>
+				<button onclick="addNumber(0)">0</button>
+			</td>
+			<td>
+				<button onclick="evalu()">=</button>
+			</td>
+			<td>
+				<button onclick="addSymbol('/')">/</button>
+			</td>
+		</tr>
+	</table>
+	</div>
+</body>
+</html>

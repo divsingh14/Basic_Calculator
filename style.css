@@ -1,0 +1,62 @@
+input{
+	font-size: 30px;
+}
+
+#display{
+	margin-bottom: 5px;
+	padding-left: 5px;
+	width: 310px;
+	height: 65px;
+	text-align: right;
+	font-size: 50px;
+	background: transparent;
+	border: none;
+	color: #717986;
+	border-bottom: 2px solid #717986;
+}
+
+button{
+	background-color: #A9A9A9;
+	width: 70px;
+	margin: 2px 2px 2px 2px;
+	height: 65px;
+	color: #000000;
+	font-size: 25px;
+	font-weight: bold;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+	opacity: 0.6;
+	transition: 0.3s;
+}
+button:hover {opacity: 1}
+
+#calculator_body{
+	padding: 20px 10px 10px 25px;
+	background: transparent;
+	width: 320px;
+	height: 410px;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 10px;
+	margin-left: 35%;
+	margin-top: 10%;
+	border: 0.5px solid black;
+}
+#del_button{
+	width: 310px;
+	color: #000000;
+	font-size: 25px;
+	font-weight: bold;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+	opacity: 0.6;
+	transition: 0.3s;
+	background-color: #A9A9A9;
+	opacity: 0.6;
+	transition: 0.3s;
+}
+#del_button:hover {opacity: 1}
+body{
+	background-image: url("back.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
